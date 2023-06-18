@@ -8,6 +8,7 @@ However, if you select any other door, unfortunately, you lose the game. But don
 Enjoy your adventure on Treasure Island and may you discover the hidden treasure!'''
 
 from art import logo
+print(logo)
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.") 
 Direction = input(print("You are on a crossroad. Where do you want to go? Type \"left\" or \"right\"."))
