@@ -1,3 +1,5 @@
+#The code you provided seems to be a simplified version of a game where a player controls a character using the Up arrow key to avoid colliding with cars moving across the screen. 
+
 import time
 from turtle import Screen
 from player import Player
