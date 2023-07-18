@@ -1,3 +1,4 @@
+#The provided code is a simple tkinter application for converting miles to kilometers.
 from tkinter import *
 
 def miles_to_km():
