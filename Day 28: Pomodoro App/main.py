@@ -1,3 +1,12 @@
+#This is a simple Pomodoro timer application built using Python's Tkinter library. 
+#The app provides a graphical user interface with a timer and buttons for starting and resetting the timer. 
+#The timer follows the Pomodoro technique, which consists of work intervals (25 minutes by default) followed by short breaks (5 minutes by default). 
+#After completing four work intervals, a longer break (20 minutes by default) is given. 
+#The timer can be started and stopped with the "Start" and "Reset" buttons, and it cycles through work and break periods according to the Pomodoro technique. 
+#During the work intervals, a tomato image is displayed on the canvas, and the timer counts down the time. 
+#When a break starts, the title label changes color to indicate whether it's a short break or a long break. 
+#After each work session, a checkmark is displayed below the timer, and multiple checkmarks indicate the number of completed work sessions. 
+#The user can restart the timer and track their productivity using this Pomodoro timer application.
 from tkinter import *
 import math
 # ---------------------------- CONSTANTS ------------------------------- #
